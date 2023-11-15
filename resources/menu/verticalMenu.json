@@ -1,0 +1,122 @@
+{
+    "menu": [{
+            "url": "/",
+            "name": "Home",
+            "icon": "menu-icon tf-icons bx bx-home-circle",
+            "slug": "dashboard",
+
+            "submenu": [{
+                    "url": "/",
+                    "name": "Dashboard",
+                    "slug": "dashboard-analytics"
+                },
+                {
+                    "url": "dashboard/laporan-analytics",
+                    "name": "Laporan",
+                    "slug": "dashboard-laporan-analytics"
+                }
+
+
+            ]
+        },
+
+        {
+            "name": "Data Master",
+            "icon": "menu-icon tf-icons bx bx-layout",
+            "slug": "master",
+            "submenu": [{
+                    "url": "master/kontak",
+                    "name": "Kontak",
+                    "slug": "master-kontak"
+                },
+                {
+                    "url": "master/daftar-akun",
+                    "name": "Daftar Akun",
+                    "slug": "master-daftar-akun"
+                },
+                {
+                    "url": "master/produk",
+                    "name": "Produk",
+                    "slug": "master-produk"
+                },
+                {
+                    "url": "master/aset",
+                    "name": "Aset",
+                    "slug": "master-aset"
+                },
+                {
+                    "url": "master/daftar-lain",
+                    "name": "Daftar Lain",
+                    "slug": "master-daftar-lain"
+                }
+            ]
+        },
+        {
+            "name": "Transaksi",
+            "icon": "menu-icon tf-icons bx bx-store",
+            "slug": "front-pages",
+
+            "submenu": [{
+                    "url": "transaksi/jurnal-umum",
+                    "name": "Jurnal Umum",
+                    "slug": "transaksi-jurnal-umum"
+                },
+                {
+                    "url": "transaksi/pesanan-pembelian",
+                    "name": "Pesanan Pembelian",
+                    "slug": "transaksi-pesanan-pembelian"
+                },
+                {
+                    "url": "transaksi/pembelian",
+                    "name": "Pembelian",
+                    "slug": "transaksi-pembelian"
+                },
+                {
+                    "url": "transaksi/titipan-supplier",
+                    "name": "Titipan Supplier",
+                    "slug": "transaksi-titipan-supplier"
+                },
+                {
+                    "url": "transaksi/pelunasan-hutang",
+                    "name": "Pelunasan Hutang",
+                    "slug": "transaksi-pelunasan-hutang"
+                },
+                {
+                    "url": "transaksi/pesanan-pekerjaan",
+                    "name": "Pesanan Pekerjaan",
+                    "slug": "transaksi-pesanan-pekerjaan"
+                },
+                {
+                    "url": "transaksi/produksi",
+                    "name": "Produksi",
+                    "slug": "transaksi-produksi"
+                },
+                {
+                    "url": "transaksi/pesanan-penjualan",
+                    "name": "Pesanan Penjualan",
+                    "slug": "transaksi-pesanan-penjualan"
+                },
+                {
+                    "url": "transaksi/penjualan",
+                    "name": "Penjualan",
+                    "slug": "transaksi-penjualan"
+                },
+                {
+                    "url": "transaksi/titipan-customer",
+                    "name": "Titipan Customer",
+                    "slug": "transaksi-titipan-customer"
+                },
+                {
+                    "url": "transaksi/pelunasan-piutang",
+                    "name": "Pelunasan Piutang",
+                    "slug": "transaksi-pelunasan-piutang"
+                },
+                {
+                    "url": "transaksi/manual-posting-jurnal",
+                    "name": "Manual Posting Jurnal",
+                    "slug": "transaksi-manual-posting-jurnal"
+                }
+            ]
+        }
+    ]
+}
